@@ -116,9 +116,9 @@ import {
 } from 'mdast-util-gfm-autolink-literal'
 import {toMarkdown} from 'mdast-util-to-markdown'
 
-const doc = await fs.readFile('example.md')
+const document = await fs.readFile('example.md', 'utf8')
 
-const tree = fromMarkdown(doc, {
+const tree = fromMarkdown(document, {
   extensions: [gfmAutolinkLiteral()],
   mdastExtensions: [gfmAutolinkLiteralFromMarkdown()]
 })
