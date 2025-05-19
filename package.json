@@ -55,7 +55,7 @@
     "util"
   ],
   "license": "MIT",
-  "name": "mdast-util-gfm-autolink-literal",
+  "name": "zhf.mdast-util-gfm-autolink-literal",
   "prettier": {
     "bracketSpacing": false,
     "semi": false,
